@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h1>Dashboard</h1>
+<p>Welcome to your dashboard!</p>
+<ul>
+    <li><a href="{{ url_for('routes.schedule_post') }}">Schedule a new post</a></li>
+    <li><a href="{{ url_for('routes.analytics') }}">View analytics</a></li>
+    <li><a href="{{ url_for('routes.recommendations') }}">Get content recommendations</a></li>
+</ul>
+{% endblock %}
