@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Schedule Post{% endblock %}
+
+{% block content %}
+<h1>Schedule a New Post</h1>
+<form method="post" action="{{ url_for('routes.schedule_post') }}">
+    <div>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+    </div>
+    <div>
+        <label for="time">Scheduled Time:</label>
+        <input type="datetime-local" id="time" name="time" required>
+    </div>
+    <div>
+        <button type="submit">Schedule Post</button>
+    </div>
+</form>
+{% endblock %}
