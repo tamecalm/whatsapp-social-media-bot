@@ -4,7 +4,7 @@ This project is a WhatsApp bot integrated with social media functionalities such
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/yourusername/whatsapp-social-media-bot.git
+   git clone https://github.com/tamecalm/whatsapp-social-media-bot.git
    cd whatsapp-social-media-bot
    ```
 2. **Create a virtual environment and activate it:**
