@@ -62,9 +62,7 @@ python -m unittest discover -s tests
 ## Contributors
 
 - John (@tamecalm)
-- Contributor 1 (@contributor1githubusername)
-
+  
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
